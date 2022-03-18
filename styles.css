@@ -1,0 +1,10 @@
+/* Grid layout - Dashboard */
+/* Divide entire page into a 2x2 Grid
+    2 Columns, 2 Rows
+    ASide Should Span from top to bottom
+    nav bar Should be Top next to Aside
+    Main Content should be below Nav-bar and next to aside
+    Aside left Side, Nav + Main right side
+    Ex. 1fr 3fr Columns || minmax(200px, 1fr) minmax(600px, 3fr)
+    Ex 1fr 4fr Rows || minmax(150px, 1fr) minmax(600px, 4fr)
+*/
