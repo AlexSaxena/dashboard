@@ -78,6 +78,25 @@ input[type="search"] {
 }
 .container-btns {
   border: solid green 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav-btns {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #4299e1;
+  border-radius: 50em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+}
+.nav-btns:hover {
+  box-shadow: 0 0 0 0.15rem #5ceace;
 }
 /* Aside */
 .aside {
