@@ -59,6 +59,22 @@ input[type="search"] {
 }
 .container-usertag {
   border: solid blue 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 10%;
+}
+#user-tag {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.greeting-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .container-btns {
   border: solid green 1px;
