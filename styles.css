@@ -41,8 +41,21 @@ input[type="search"] {
   padding: 0.2rem;
   width: 75%;
 }
+.profile-img {
+  border: solid black 2px;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
 .container-notification {
   border: solid orange 1px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .container-usertag {
   border: solid blue 1px;
