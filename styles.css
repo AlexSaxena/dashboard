@@ -185,6 +185,43 @@ input[type="search"] {
 
 /* Announcements & Trending */
 .anno-container {
+  border: black solid 1px;
+  /* display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem; */
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  justify-items: center;
+}
+.anno-title {
+  /* justify-self: start;
+  align-self: start; */
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.anno-items {
+  background-color: rgb(187, 187, 187);
+  padding: 1.5rem;
+  border-radius: 5px;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  font-family: Georgia;
+}
+.anno-card {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+.anno-border {
+  border-bottom: solid black 1px;
+}
+.anno-item-title {
+  font-size: 1em;
+  font-weight: 600;
+  font-family: verdana;
 }
 .trending-container {
+  border: black solid 1px;
 }
