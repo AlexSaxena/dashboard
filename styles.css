@@ -224,4 +224,25 @@ input[type="search"] {
 }
 .trending-container {
   border: black solid 1px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+}
+.trending-profiles {
+  padding: 2rem;
+  border: solid red 1px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.trending-items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.trending-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
