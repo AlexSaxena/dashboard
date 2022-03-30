@@ -16,26 +16,20 @@
   font-family: "Roboto", sans-serif;
 }
 .container {
-  /* text-align: center; */
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 6fr;
-  /* gap: 10px; */
 }
 
 /* Navbar */
 .nav-bar {
-  /* grid-column: 1 / 3; */
-  /* grid-row: 1 / 2; */
-  /* border: solid black 1px; */
   display: grid;
   grid-template-columns: 2fr 1fr;
   border-bottom: 3px solid #bbb;
   padding: 0.5rem;
 }
 .container-search {
-  /* border: solid red 1px; */
   padding: 1rem;
   display: flex;
   gap: 1rem;
@@ -54,7 +48,6 @@ input[type="search"] {
   border-radius: 50%;
 }
 .container-notification {
-  /* border: solid orange 1px; */
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +56,6 @@ input[type="search"] {
   gap: 2rem;
 }
 .container-usertag {
-  /* border: solid blue 1px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -82,7 +74,6 @@ input[type="search"] {
   align-items: flex-start;
 }
 .container-btns {
-  /* border: solid green 1px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -105,7 +96,6 @@ input[type="search"] {
 }
 /* Aside */
 .aside {
-  /* border: solid black 1px; */
   grid-column: 1 / 2;
   grid-row: 1 /3;
   display: grid;
@@ -125,7 +115,6 @@ input[type="search"] {
 }
 .aside-menu1 {
   display: grid;
-  /* justify-items: start; */
   place-items: center;
 }
 .aside-menu2 {
@@ -148,7 +137,6 @@ input[type="search"] {
 
 /* Main */
 .main-content {
-  /* border: solid black 1px; */
   background-color: rgb(228, 238, 248);
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -190,18 +178,11 @@ input[type="search"] {
 
 /* Announcements & Trending */
 .anno-container {
-  /* border: black solid 1px; */
-  /* display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  gap: 2rem; */
   display: grid;
   grid-template-rows: 1fr 5fr;
   justify-items: center;
 }
 .anno-title {
-  /* justify-self: start;
-  align-self: start; */
   padding-top: 1rem;
   font-size: 1.3rem;
   font-weight: 600;
@@ -228,7 +209,6 @@ input[type="search"] {
   font-family: verdana;
 }
 .trending-container {
-  /* border: black solid 1px; */
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -236,7 +216,6 @@ input[type="search"] {
 }
 .trending-profiles {
   padding: 2rem;
-  /* border: solid red 1px; */
   background-color: rgb(187, 187, 187);
   border-radius: 10%;
   display: grid;
